@@ -1,0 +1,73 @@
+.password-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 50%; */
+    /* background-color: blue; */
+}
+
+.password-form{
+    background: #0b1214;
+    padding: 1.5rem;
+    border-radius: 10px;
+    min-width: 30%;
+    
+}
+
+.password-form .top-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-form .top-icon:only-child{
+    color: #282c34;
+}
+.password-form .form-group h3{
+    text-align: center;
+    color: #eff5f5;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.form-group input{
+    padding: .8rem;
+    border: 1.5px solid #282c34;
+    background: #0b1214;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.form-group p{
+    color: #fff;
+    font-size: 16px;
+}
+.submit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.submit a{
+    font: .5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #015EF0;
+    padding: 8px;
+    border-radius: 5px;
+    width: inherit;
+    text-align: center;
+    /* justify-content: center; */
+}
