@@ -1,0 +1,20 @@
+.card {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: inherit !important;
+    height: 100% !important;
+    background: inherit !important;
+}
+.card h2{
+    color: #fff;
+}
+
+.card img{
+    width: 80% !important;
+    border-radius: 0;
+    height: 100% !important;
+    max-height: 100vh !important;
+}
+

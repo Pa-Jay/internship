@@ -1,0 +1,27 @@
+
+.Dashboard{
+    width: 100%;
+    max-width: 100% !important;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: #FCFCFC;
+    /* overflow: hidden !important; */
+    display: flex;
+}
+
+nav{
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+     Menu{
+        display: none !important;
+     }
+
+     nav{
+
+        display: block !important;
+     }
+}
